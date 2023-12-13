@@ -13,10 +13,10 @@ const initMap = () => {
   })
     .then((AMap) => {
       map = new AMap.Map("container", {
-        //设置地图容器id
-        viewMode: "3D", //是否为3D地图模式
-        zoom: 5, //初始化地图级别
-        center: [105.602725, 37.076636], //初始化地图中心点位置
+        // 设置地图容器id
+        viewMode: "3D", // 是否为3D地图模式
+        zoom: 5, // 初始化地图级别
+        center: [105.602725, 37.076636], // 初始化地图中心点位置
       });
     })
     .catch((e) => {
